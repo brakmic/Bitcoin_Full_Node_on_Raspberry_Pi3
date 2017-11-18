@@ -14,5 +14,11 @@ To create a proper firewall use *iptables.sh* script and put it somewhere under 
 
 * Check if the firewall rules have been instantiated correctly: `sudo iptables -L`
 
+## Colorized outputs
+
+* Install *multitail* package with `sudo apt-get install multitail`
+
+* Read the [manual](https://www.vanheusden.com/multitail/manual.php) or just put the provided *.multitailrc* into your home dir 
+
 
 
