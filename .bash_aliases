@@ -1,5 +1,6 @@
 alias ll="ls -lah"
 alias cd..="cd .."
+alias bitcoin-cli="bitcoin-cli -datadir=${BITCOIN_DATADIR}"
 alias btclog="multitail --retry -cS btclog -f ${BITCOIN_DATADIR}/debug.log"
 alias btcup="bitcoind -datadir=${BITCOIN_DATADIR}"
 alias btcdown="bitcoin-cli stop"
