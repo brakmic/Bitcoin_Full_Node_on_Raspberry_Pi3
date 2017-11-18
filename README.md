@@ -2,7 +2,7 @@
 
 Shell scripts and config files from [my article](https://blog.brakmic.com/running-a-full-bitcoin-node-on-raspberry-pi-3/)
 
-# Firewall config files
+## Firewall configuration
 
 To create a proper firewall use *iptables.sh* script that should reside somewhere under /usr/local, for example /usr/local/bin. Don't forget to make this script executable with `chmod +x iptables.sh`
 
