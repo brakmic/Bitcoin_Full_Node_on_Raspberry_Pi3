@@ -2,6 +2,12 @@
 
 Shell scripts and config files from [my article](https://blog.brakmic.com/running-a-full-bitcoin-node-on-raspberry-pi-3/) on creating a **Bitcoin Core node on Raspberry Pi 3**
 
+## General configuration 
+
+* Adapt paths from **.bashrc** to reflect your local config
+
+* Adapt aliases from **.bash_aliases**
+
 ## Firewall configuration
 
 To create a proper firewall use *iptables.sh* script and put it somewhere under */usr/local*, for example */usr/local/bin*. Don't forget to make it executable with `chmod +x iptables.sh`
