@@ -1,0 +1,10 @@
+colorscheme:btclog
+cs_re:green:UpdateTip
+cs_re:red:error
+cs_re:red:Misbehaving
+cs_re:red:blocked
+cs_re:red:PROCESSMESSAGE
+cs_re:red:FAILED
+cs_re:red:failed
+cs_re:red:unreachable
+cs_re:magenta:blocks
