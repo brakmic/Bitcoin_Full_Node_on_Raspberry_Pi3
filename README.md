@@ -1,5 +1,8 @@
 # Bitcoin Full Node on Raspberry Pi 3
 
+<span><img src="https://blog.brakmic.com/wp-content/uploads/2017/11/20171116_085057.png" width="400" height="400">
+<img src="https://blog.brakmic.com/wp-content/uploads/2017/11/20171116_065807-150x150.png" width="400" height="400"></span>
+
 Shell scripts and config files from [my article](https://blog.brakmic.com/running-a-full-bitcoin-node-on-raspberry-pi-3/) on creating a **Bitcoin Core node on Raspberry Pi 3**
 
 ## General configuration 
