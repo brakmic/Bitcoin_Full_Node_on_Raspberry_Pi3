@@ -4,7 +4,7 @@ Shell scripts and config files from [my article](https://blog.brakmic.com/runnin
 
 ## Firewall configuration
 
-To create a proper firewall use *iptables.sh* script that should reside somewhere under /usr/local, for example /usr/local/bin. Don't forget to make this script executable with `chmod +x iptables.sh`
+To create a proper firewall use *iptables.sh* script and put it somewhere under */usr/local*, for example */usr/local/bin*. Don't forget to make it executable with `chmod +x iptables.sh`
 
 * Install *iptables-persistent* with `apt-get install iptables-persistent`
 
