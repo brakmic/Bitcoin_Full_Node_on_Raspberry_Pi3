@@ -34,31 +34,17 @@ ip6tables -A INPUT -m conntrack --ctstate INVALID -j DROP
 iptables -A INPUT -p icmp --icmp-type 8 -m conntrack --ctstate NEW -j ACCEPT
 ip6tables -A INPUT -p icmpv6 --icmpv6-type 128 -m conntrack --ctstate NEW -j ACCEPT
 
-# open ports for http, https, ssh, vnc, bitcoin etc.
+# open ports for ssh, bitcoin etc.
 # !!! ADAPT TO YOU LOCAL NETWORK SETUP !!!
 iptables -A TCP -p tcp --dport 22 -j ACCEPT
-iptables -A TCP -p tcp --dport 80 -j ACCEPT
-iptables -A TCP -p tcp --dport 8080 -j ACCEPT
-iptables -A TCP -p tcp --dport 443 -j ACCEPT
 iptables -A TCP -p tcp --dport 8333 -j ACCEPT
 iptables -A TCP -p tcp --sport 8333 -j ACCEPT
 iptables -A TCP -p tcp --dport 18333 -j ACCEPT
 iptables -A TCP -p tcp --sport 18333 -j ACCEPT
-iptables -A TCP -p tcp --dport 5800 -j ACCEPT
-iptables -A TCP -p tcp --dport 5900 -j ACCEPT
-iptables -A TCP -p tcp --dport 6000 -j ACCEPT
-iptables -A TCP -p tcp --dport 9091 -j ACCEPT
-ip6tables -A TCP -p tcp --dport 80 -j ACCEPT
-ip6tables -A TCP -p tcp --dport 8080 -j ACCEPT
-ip6tables -A TCP -p tcp --dport 443 -j ACCEPT
 ip6tables -A TCP -p tcp --dport 8333 -j ACCEPT
 ip6tables -A TCP -p tcp --sport 8333 -j ACCEPT
 ip6tables -A TCP -p tcp --dport 18333 -j ACCEPT
 ip6tables -A TCP -p tcp --sport 18333 -j ACCEPT
-ip6tables -A TCP -p tcp --dport 5800 -j ACCEPT
-ip6tables -A TCP -p tcp --dport 5900 -j ACCEPT
-ip6tables -A TCP -p tcp --dport 6000 -j ACCEPT
-ip6tables -A TCP -p tcp --dport 9091 -j ACCEPT
 
 # handle all new incomming connections for tcp and udp
 iptables -A INPUT -p udp -m conntrack --ctstate NEW -j UDP
