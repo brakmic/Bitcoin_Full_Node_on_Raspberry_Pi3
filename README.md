@@ -4,9 +4,9 @@ Shell scripts and config files from [my article](https://blog.brakmic.com/runnin
 
 ## General configuration 
 
-* Adapt paths from **.bashrc** to reflect your local config
+* Adapt [paths](https://github.com/brakmic/Bitcoin_Full_Node_on_Raspberry_Pi3/blob/master/.bashrc#L115) from **.bashrc** to reflect your local config
 
-* Adapt aliases from **.bash_aliases**
+* Adapt [aliases](https://github.com/brakmic/Bitcoin_Full_Node_on_Raspberry_Pi3/blob/master/.bash_aliases#L3) from **.bash_aliases**
 
 ## Firewall configuration
 
@@ -24,7 +24,7 @@ To create a proper firewall use *iptables.sh* script and put it somewhere under 
 
 * Install *multitail* package with `sudo apt-get install multitail`
 
-* Read the [manual](https://www.vanheusden.com/multitail/manual.php) or just put the provided *.multitailrc* into your home dir 
+* Read the [manual](https://www.vanheusden.com/multitail/manual.php) or just put the provided [.multitailrc](https://github.com/brakmic/Bitcoin_Full_Node_on_Raspberry_Pi3/blob/master/.multitailrc#L1) into your home dir 
 
 
 
