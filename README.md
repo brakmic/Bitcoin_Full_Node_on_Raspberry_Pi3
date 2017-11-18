@@ -1,6 +1,6 @@
 # Bitcoin Full Node on Raspberry Pi 3
 
-Shell scripts and config files from [my article](https://blog.brakmic.com/running-a-full-bitcoin-node-on-raspberry-pi-3/) on creating a full **Bitcoin Core node on Raspberry Pi 3**
+Shell scripts and config files from [my article](https://blog.brakmic.com/running-a-full-bitcoin-node-on-raspberry-pi-3/) on creating a **Bitcoin Core node on Raspberry Pi 3**
 
 ## Firewall configuration
 
